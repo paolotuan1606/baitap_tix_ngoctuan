@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/slick-theme.css">
+
+    <link rel="stylesheet" href="./assets/css/venobox.min.css">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header">
+        <div class="left">
+            <a href="">
+                <img src="../../assets/img/web-logo.png" alt="">
+            </a>
+        </div>
+        <div class="center">
+            <a href="">Lịch Chiếu</a>
+            <a href="">Cụm Rạp</a>
+            <a href="">Tin Tức</a>
+            <a href="">Ứng dụng</a>
+        </div>
+        <div class="right">
+            <div id="btnLogin">
+                <a href="">
+                    <i class="fas fa-user-circle"></i>
+                    <span>Đăng Nhập</span>
+                </a>
+            </div>
+            <div class="dropdown" id="locationDropdowns">
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                    <i class="fas fa-map-marker-alt"></i>Hồ Chí Minh
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Hồ Chí Minh</a>
+                    <a class="dropdown-item" href="#">Hà Nội</a>
+                    <a class="dropdown-item" href="#">Đà Nẵng</a>
+                    <a class="dropdown-item" href="#">Hải Phòng</a>
+                    <a class="dropdown-item" href="#">Biên Hòa</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- carousel -->
+    <!-- <div id="carousel"> -->
+    <section class="carousel-movie">
+        <div class="single-item">
+            <div class="item">
+                <a href="">
+                    <div class="movieShow">
+                        <img src="../../assets/img/lua-deu-gap-lua-dao-16105107337344.jpg" alt="">
+                    </div>
+                    <div class="btnPlay">
+                        <a class="venobox btn btn_newin" data-vbtype="video" href="https://youtu.be/NWEe2BGhOUA">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="">
+                    <div class="movieShow">
+                        <img src="../../assets/img/tazza-16137903733874.jpg" alt="">
+                    </div>
+                    <div class="btnPlay">
+                        <a class="venobox btn btn_newin" data-vbtype="video" href="https://youtu.be/gqcpChNYH10">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- hometools -->
+        <div id="hometools">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 menu">
+                        <div class="dropdown">
+                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                Phim
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 menu">
+                        <div id="rap" class="dropdown">
+                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                Rạp
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 menu">
+                        <div class="dropdown">
+                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                Ngày xem
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 menu">
+                        <div class="dropdown">
+                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                Suất Chiếu
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn"
+                            style="width: 100%; height: 100%; background-color: black; color: white; text-align: center;">Mua
+                            Vé
+                            Ngay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- movie list -->
+
+    <section id="movie-list">
+        <div class="container">
+            <div class="title-heading">
+                <ul class="nav  justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Đang Chiếu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sắp Chiếu</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="list-movie">
+                <div class="list flex-container">
+                    <div class="list-item flex-item">
+                        <div class="movie">
+                            <a href="">
+                                <img src="https://s3img.vcdn.vn/mobile/123phim/2021/02/tom-jerry-16127706651597_215x318.png"
+                                    alt="">
+                                <div class="movie-btn">
+                                    <a class="venobox btn btn_newin" data-vbtype="video" href="">
+                                        <!-- <i class="fas fa-play"></i> -->
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="film">
+                                <div class="name-film">
+                                    <span class="age all-age">P</span>
+                                    <span class="movir-title">Tom & Jerry</span>
+                                </div>
+                                <p class="movie-time">100 phút</p>
+                            </div>
+                            <div class="btnBuy">
+                                <button class="btn btn-danger">MUA VÉ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item flex-item">
+                        <div class="movie">
+                            <a href="">
+                                <img src="https://s3img.vcdn.vn/mobile/123phim/2020/12/lua-deu-gap-lua-dao-the-con-heartist-c16-16082739589858_215x318.png"
+                                    alt="">
+                                <div class="movie-btn">
+                                    <a class="venobox btn btn_newin" data-vbtype="video"
+                                        href="https://youtu.be/NWEe2BGhOUA">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="film">
+                                <div class="name-film">
+                                    <span class="age all-age">P</span>
+                                    <span class="movir-title">Tom & Jerry</span>
+                                </div>
+                                <p class="movie-time">100 phút</p>
+                            </div>
+                            <div class="btnBuy">
+                                <button class="btn btn-danger">MUA VÉ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item flex-item">
+                        <div class="movie">
+                            <a href="">
+                                <img src="https://s3img.vcdn.vn/mobile/123phim/2021/02/tazza-than-bip-jack-chot-tazza-one-eyed-jack-c13-16127716280582_215x318.png"
+                                    alt="">
+                                <div class="movie-btn">
+                                    <a class="venobox btn btn_newin" data-vbtype="video"
+                                        href="https://youtu.be/gqcpChNYH10">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="film">
+                                <div class="name-film">
+                                    <span class="age all-age">P</span>
+                                    <span class="movir-title">Tom & Jerry</span>
+                                </div>
+                                <p class="movie-time">100 phút</p>
+                            </div>
+                            <div class="btnBuy">
+                                <button class="btn btn-danger">MUA VÉ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item flex-item">
+                        <div class="movie">
+                            <a href="">
+                                <img src="https://s3img.vcdn.vn/mobile/123phim/2021/01/tay-xa-thu-the-marksman-c16-16111970241171_215x318.png"
+                                    alt="">
+                                <div class="movie-btn">
+                                    <a class="venobox btn btn_newin" data-vbtype="video"
+                                        href="https://youtu.be/g7LeR7chXVM">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="film">
+                                <div class="name-film">
+                                    <span class="age ">C16</span>
+                                    <span class="movir-title">Tay Xạ Thủ - The Marksman (C16)</span>
+                                </div>
+                                <p class="movie-time">107 phút</p>
+                            </div>
+                            <div class="btnBuy">
+                                <button class="btn btn-danger">MUA VÉ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item flex-item">
+                        <div class="movie">
+                            <a href="">
+                                <img src="https://s3img.vcdn.vn/mobile/123phim/2021/02/tom-jerry-16127706651597_215x318.png"
+                                    alt="">
+                                <div class="movie-btn">
+                                    <a class="venobox btn btn_newin" data-vbtype="video" href="">
+                                        <!-- <i class="fas fa-play"></i> -->
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="film">
+                                <div class="name-film">
+                                    <span class="age all-age">P</span>
+                                    <span class="movir-title">Tom & Jerry</span>
+                                </div>
+                                <p class="movie-time">100 phút</p>
+                            </div>
+                            <div class="btnBuy">
+                                <button class="btn btn-danger">MUA VÉ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item flex-item">
+                        <div class="movie">
+                            <a href="">
+                                <img src="https://s3img.vcdn.vn/mobile/123phim/2020/12/lua-deu-gap-lua-dao-the-con-heartist-c16-16082739589858_215x318.png"
+                                    alt="">
+                                <div class="movie-btn">
+                                    <a class="venobox btn btn_newin" data-vbtype="video"
+                                        href="https://youtu.be/NWEe2BGhOUA">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="film">
+                                <div class="name-film">
+                                    <span class="age all-age">P</span>
+                                    <span class="movir-title">Tom & Jerry</span>
+                                </div>
+                                <p class="movie-time">100 phút</p>
+                            </div>
+                            <div class="btnBuy">
+                                <button class="btn btn-danger">MUA VÉ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item flex-item">
+                        <div class="movie">
+                            <a href="">
+                                <img src="https://s3img.vcdn.vn/mobile/123phim/2021/02/tazza-than-bip-jack-chot-tazza-one-eyed-jack-c13-16127716280582_215x318.png"
+                                    alt="">
+                                <div class="movie-btn">
+                                    <a class="venobox btn btn_newin" data-vbtype="video"
+                                        href="https://youtu.be/gqcpChNYH10">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="film">
+                                <div class="name-film">
+                                    <span class="age all-age">P</span>
+                                    <span class="movir-title">Tom & Jerry</span>
+                                </div>
+                                <p class="movie-time">100 phút</p>
+                            </div>
+                            <div class="btnBuy">
+                                <button class="btn btn-danger">MUA VÉ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item flex-item">
+                        <div class="movie">
+                            <a href="">
+                                <img src="https://s3img.vcdn.vn/mobile/123phim/2021/01/tay-xa-thu-the-marksman-c16-16111970241171_215x318.png"
+                                    alt="">
+                                <div class="movie-btn">
+                                    <a class="venobox btn btn_newin" data-vbtype="video"
+                                        href="https://youtu.be/g7LeR7chXVM">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="film">
+                                <div class="name-film">
+                                    <span class="age ">C16</span>
+                                    <span class="movir-title">Tay Xạ Thủ - The Marksman (C16)</span>
+                                </div>
+                                <p class="movie-time">107 phút</p>
+                            </div>
+                            <div class="btnBuy">
+                                <button class="btn btn-danger">MUA VÉ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./assets/js/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.single-item').slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: false,
+                dots: true,
+
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.list').slick({
+                autoplay: false,
+                arrows: true,
+                dots: false,
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+
+            });
+        });
+    </script>
+
+
+    <script src="./assets/js/venobox.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.venobox').venobox();
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
